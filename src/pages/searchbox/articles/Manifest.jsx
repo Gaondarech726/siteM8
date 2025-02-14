@@ -18,7 +18,7 @@ export const ImgWJ = styled.img`
   border-bottom: 5px solid #bd1e2c;
 `;
 
-const WJimg = '../../../img/WJ.jpg';
+const WJimg = require('../../../img/WJ.jpg');
 
 const Manifest = () => {
   const location = useLocation();

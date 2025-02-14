@@ -18,7 +18,7 @@ export const Sxe = styled.img`
   margin-bottom: 50px;
 `;
 
-const SxeImg = '../../../img/sxe/Sxe.jpg';
+const SxeImg = require('../../../img/sxe/Sxe.jpg');
 
 const Sxes = () => {
   const location = useLocation();
