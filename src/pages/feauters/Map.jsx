@@ -4,6 +4,7 @@ import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import L from 'leaflet';
 import markerIcon from 'leaflet/dist/images/marker-icon.png';
 import markerShadow from 'leaflet/dist/images/marker-shadow.png';
+import styled from 'styled-components';
 
 const customIcon = new L.Icon({
   iconUrl: markerIcon,
@@ -13,26 +14,24 @@ const customIcon = new L.Icon({
   popupAnchor: [1, -34],
 });
 
-import styled from 'styled-components';
-
 export const H1 = styled.h1`
   color: white;
   padding-bottom: 50px;
   padding-top: 50px;
 `;
 
-import E6 from '../../img/fests/ASGARDSREI 2017.jpg';
-import E4 from '../../img/fests/ASGARDSREI 2019.png';
-import E12 from '../../img/fests/ASGARDSREI III FEST.jpg';
-import E5 from '../../img/fests/ASGARDSREI IV.png';
-import E9 from '../../img/fests/ASGARDSREI V.jpg';
-import E7 from '../../img/fests/ASGARDSREI VII FEST.png';
-import E11 from '../../img/fests/HEIL RAGNAROK FEST.jpg';
-import E2 from '../../img/fests/HERETIC FEST II.jpg';
-import E3 from '../../img/fests/HERETIC FEST.jpg';
-import E10 from '../../img/fests/KABARET PESTE NOIRE.png';
-import E8 from '../../img/fests/VSESLAV THE SORCERER.jpg';
-import E1 from '../../img/fests/YULE NIGHT.jpg';
+const E6 = '../../img/fests/ASGARDSREI 2017.jpg';
+const E4 = '../../img/fests/ASGARDSREI 2019.png';
+const E12 = '../../img/fests/ASGARDSREI III FEST.jpg';
+const E5 = '../../img/fests/ASGARDSREI IV.png';
+const E9 = '../../img/fests/ASGARDSREI V.jpg';
+const E7 = '../../img/fests/ASGARDSREI VII FEST.png';
+const E11 = '../../img/fests/HEIL RAGNAROK FEST.jpg';
+const E2 = '../../img/fests/HERETIC FEST II.jpg';
+const E3 = '../../img/fests/HERETIC FEST.jpg';
+const E10 = '../../img/fests/KABARET PESTE NOIRE.png';
+const E8 = '../../img/fests/VSESLAV THE SORCERER.jpg';
+const E1 = '../../img/fests/YULE NIGHT.jpg';
 
 const tourLocations = [
   {

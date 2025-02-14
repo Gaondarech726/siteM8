@@ -1,5 +1,7 @@
+import { useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 import { BackLink } from './../../../components/BackLink';
+
 export const P = styled.p`
   color: white;
 `;
@@ -31,11 +33,12 @@ export const Ansyz = styled.img`
   margin-bottom: 50px;
 `;
 
-import AnsyzImg from '../../../img/runes/Ansyz.jpeg';
-import FehuImg from '../../../img/runes/Fehu.jpg';
-import RunesImg from '../../../img/runes/Runes.jpg';
+const AnsyzImg = '../../../img/runes/Ansyz.jpeg';
+const FehuImg = '../../../img/runes/Fehu.jpg';
+const RunesImg = '../../../img/runes/Runes.jpg';
 
 const Runes = () => {
+  const location = useLocation();
   const backLinkHref = location.state?.from ?? '/state';
   return (
     <main>

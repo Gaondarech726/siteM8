@@ -1,3 +1,4 @@
+import { useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 import { BackLink } from './../../../components/BackLink';
 
@@ -17,9 +18,10 @@ export const ImgWJ = styled.img`
   border-bottom: 5px solid #bd1e2c;
 `;
 
-import WJimg from '../../../img/WJ.jpg';
+const WJimg = '../../../img/WJ.jpg';
 
 const Manifest = () => {
+  const location = useLocation();
   const backLinkHref = location.state?.from ?? '/state';
   return (
     <main>

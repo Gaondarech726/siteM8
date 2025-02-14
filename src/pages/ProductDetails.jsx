@@ -1,15 +1,14 @@
-import { useParams } from "react-router-dom";
-import { getProductById } from "../fakeAPI";
-import { BackLink } from "../components/BackLink";
+import { useLocation, useParams } from 'react-router-dom';
+import { BackLink } from '../components/BackLink';
 import {
   ProductDescription,
   ProductH1,
-} from "../components/ProductList.styled";
-
-const defaultPath = "/src/downloadAlbum/";
+} from '../components/ProductList.styled';
+import { getProductById } from '../fakeAPI';
 
 const ProductDetails = () => {
-  const backLinkHref = location.state?.from ?? "/products";
+  const location = useLocation();
+  const backLinkHref = location.state?.from ?? '/products';
   const { id } = useParams();
   const product = getProductById(id);
   return (

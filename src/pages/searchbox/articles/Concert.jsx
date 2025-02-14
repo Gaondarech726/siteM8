@@ -1,5 +1,6 @@
-import styled from "styled-components";
-import { BackLink } from "./../../../components/BackLink";
+import { useLocation } from 'react-router-dom';
+import styled from 'styled-components';
+import { BackLink } from './../../../components/BackLink';
 
 export const P = styled.p`
   color: white;
@@ -13,9 +14,9 @@ export const H1 = styled.h1`
 export const Iframe = styled.iframe`
   margin-top: 50px;
 `;
-
 const Concert = () => {
-  const backLinkHref = location.state?.from ?? "/state";
+  const location = useLocation();
+  const backLinkHref = location.state?.from ?? '/state';
   return (
     <main>
       <BackLink to={backLinkHref}>Повернутись назад</BackLink>

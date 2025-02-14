@@ -1,28 +1,25 @@
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
+import scrollUpImage from '../../img/favicon.png';
 import './BtnScrollUp.scss';
 
 export const P = styled.p`
   color: white;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 `;
 export const Img = styled.img`
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 `;
-
-import scrollUpImage from '../../img/favicon.png';
 
 const BtnScrollUp = () => {
   const [isVisible, setIsVisible] = useState(false);

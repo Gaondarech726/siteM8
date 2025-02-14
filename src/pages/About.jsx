@@ -17,8 +17,6 @@ export const Img = styled.img`
   margin: 0 auto;
 `;
 
-const Photoimg = '/src/img/flag_m8_war.jpg';
-
 const About = () => {
   return (
     <main>
