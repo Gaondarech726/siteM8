@@ -1,0 +1,31 @@
+.slider {
+  width: 928px;
+  height: 275px;
+  margin-top: 50px;
+  .custom-swiper-slider {
+    width: 928px;
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.3s, filter 0.3s;
+    }
+
+    .swiper-slide img {
+      border-radius: 0;
+      width: 310px;
+      height: auto;
+    }
+
+    .swiper-slide-prev,
+    .swiper-slide-next {
+      transform: scale(0.8);
+      filter: brightness(50%);
+    }
+
+    .swiper-slide-active {
+      transform: scale(1);
+      filter: brightness(100%);
+    }
+  }
+}
