@@ -33,9 +33,9 @@ export const Ansyz = styled.img`
   margin-bottom: 50px;
 `;
 
-const AnsyzImg = '../../../img/runes/Ansyz.jpeg';
-const FehuImg = '../../../img/runes/Fehu.jpg';
-const RunesImg = '../../../img/runes/Runes.jpg';
+const AnsyzImg = require('../../../img/runes/Ansyz.jpeg');
+const FehuImg = require('../../../img/runes/Fehu.jpg');
+const RunesImg = require('../../../img/runes/Runes.jpg');
 
 const Runes = () => {
   const location = useLocation();
