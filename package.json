@@ -37,7 +37,10 @@
     "lint:js": "eslint src/**/*.{js,jsx}"
   },
   "eslintConfig": {
-    "extends": []
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
