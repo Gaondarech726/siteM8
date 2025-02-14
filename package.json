@@ -21,6 +21,7 @@
     "@babel/cli": "^7.26.4",
     "@babel/core": "^7.26.8",
     "@babel/preset-react": "^7.26.3",
+    "@eslint/js": "^9.20.0",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
@@ -35,6 +36,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:js": "eslint src/**/*.{js,jsx}"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
