@@ -20,18 +20,18 @@ export const H1 = styled.h1`
   padding-top: 50px;
 `;
 
-const E6 = '../../img/fests/ASGARDSREI 2017.jpg';
-const E4 = '../../img/fests/ASGARDSREI 2019.png';
-const E12 = '../../img/fests/ASGARDSREI III FEST.jpg';
-const E5 = '../../img/fests/ASGARDSREI IV.png';
-const E9 = '../../img/fests/ASGARDSREI V.jpg';
-const E7 = '../../img/fests/ASGARDSREI VII FEST.png';
-const E11 = '../../img/fests/HEIL RAGNAROK FEST.jpg';
-const E2 = '../../img/fests/HERETIC FEST II.jpg';
-const E3 = '../../img/fests/HERETIC FEST.jpg';
-const E10 = '../../img/fests/KABARET PESTE NOIRE.png';
-const E8 = '../../img/fests/VSESLAV THE SORCERER.jpg';
-const E1 = '../../img/fests/YULE NIGHT.jpg';
+const E6 = require('../../img/fests/ASGARDSREI 2017.jpg');
+const E4 = require('../../img/fests/ASGARDSREI 2019.png');
+const E12 = require('../../img/fests/ASGARDSREI III FEST.jpg');
+const E5 = require('../../img/fests/ASGARDSREI IV.png');
+const E9 = require('../../img/fests/ASGARDSREI V.jpg');
+const E7 = require('../../img/fests/ASGARDSREI VII FEST.png');
+const E11 = require('../../img/fests/HEIL RAGNAROK FEST.jpg');
+const E2 = require('../../img/fests/HERETIC FEST II.jpg');
+const E3 = require('../../img/fests/HERETIC FEST.jpg');
+const E10 = require('../../img/fests/KABARET PESTE NOIRE.png');
+const E8 = require('../../img/fests/VSESLAV THE SORCERER.jpg');
+const E1 = require('../../img/fests/YULE NIGHT.jpg');
 
 const tourLocations = [
   {
