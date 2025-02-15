@@ -21,7 +21,6 @@ export const Img = styled.img`
   -ms-user-select: none;
   user-select: none;
 `;
-const header = document.querySelector('header');
 const BtnScrollUp = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -39,7 +38,7 @@ const BtnScrollUp = () => {
   }, []);
 
   const handleScrollUp = () => {
-    header.scrollIntoView({ behavior: 'smooth' });
+    window.scrollTo({ top: -1000, behavior: 'smooth' });
   };
 
   return (
