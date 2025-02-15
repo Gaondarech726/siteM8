@@ -1,8 +1,10 @@
-import "../Footer/Footer.scss";
+import '../Footer/Footer.scss';
+const FooterBg = require('../../img/bg_soc.png');
+
 export const Footer = () => {
   return (
     <footer className="footer">
-      <nav className="footer-2"></nav>
+      <img src={FooterBg} alt="Footer" />
     </footer>
   );
 };

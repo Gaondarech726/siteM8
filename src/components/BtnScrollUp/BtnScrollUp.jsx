@@ -1,3 +1,4 @@
+import { Header } from 'components/App.styled';
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import scrollUpImage from '../../img/favicon.png';
@@ -38,7 +39,7 @@ const BtnScrollUp = () => {
   }, []);
 
   const handleScrollUp = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    Header.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (

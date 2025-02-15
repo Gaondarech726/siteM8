@@ -18,7 +18,7 @@ const ProductDetails = () => {
         <ProductH1>{product.name}</ProductH1>
         <ProductDescription>{[product.description]}</ProductDescription>
         <iframe
-          width="560"
+          width="260"
           height="315"
           src={product.link}
           title="YouTube video player"

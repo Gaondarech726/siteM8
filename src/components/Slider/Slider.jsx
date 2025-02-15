@@ -12,12 +12,15 @@ import One from '../../img/slider/photoOne.jpg';
 import Three from '../../img/slider/photoThree.jpg';
 import Two from '../../img/slider/photoTwo.jpg';
 
+import { useMediaQuery } from '@mui/material';
+
 const Slider = () => {
+  const isSmallScreen = useMediaQuery('(max-width: 768px)');
   return (
     <section className="slider">
       <Swiper
         modules={[A11y, Autoplay]}
-        slidesPerView={3}
+        slidesPerView={isSmallScreen ? 1 : 3}
         spaceBetween={52}
         centeredSlides={true}
         loop={true}

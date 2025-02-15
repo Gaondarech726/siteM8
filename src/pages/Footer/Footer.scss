@@ -1,16 +1,35 @@
 .footer {
-  background: url(../../img/bg_soc.png) no-repeat bottom center;
-  padding: 250px 0 50px;
-  width: 928px;
+  height: 340px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  color: white !important;
   position: relative;
-  display: flex;
+  color: white !important;
+  overflow: hidden; // Убираем лишнее
 
-  .footer-2 {
-    position: relative;
-    top: 100px;
-    width: 928px;
+  img {
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain; // Чтобы картинка не обрезалась
+    position: absolute;
+    bottom: 0; // Прижимаем вниз
+    left: 50%;
+    transform: translateX(-50%); // Центрируем изображение
+  }
+}
+
+// Медиа-запрос для мобильных устройств
+@media (max-width: 768px) {
+  .footer {
+    height: 260px; // Уменьшаем высоту для мобильных
+
+    img {
+      margin: 0 auto;
+      height: auto;
+      max-width: 400%;
+
+      object-fit: contain;
+    }
   }
 }

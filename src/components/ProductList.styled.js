@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 928px;
@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const CardWrapper = styled.div`
   border: 1px solid white;
-  width: 928px;
+  width: 380px;
   height: 64px;
   border-radius: 4px;
   transition: background-color 0.5s ease, color 0.5s ease;
