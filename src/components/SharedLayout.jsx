@@ -36,7 +36,7 @@ const NavLinks = styled.nav`
   transition: transform 0.3s ease-in-out;
 
   @media (max-width: 768px) {
-    left: 0;
+    right: 0;
     flex-direction: column;
     position: fixed;
     top: 100px;
@@ -44,7 +44,7 @@ const NavLinks = styled.nav`
     background: black;
     padding: 16px;
     transform: ${({ isOpen }) =>
-      isOpen ? 'translateX(150%)' : 'translateX(300%)'};
+      isOpen ? 'translateX(0%)' : 'translateX(250%)'};
   }
 `;
 
