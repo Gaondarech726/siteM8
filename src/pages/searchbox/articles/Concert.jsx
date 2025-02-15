@@ -47,7 +47,7 @@ const Concert = () => {
         &nbsp;
         <Iframe
           frameborder="0"
-          width="480"
+          width="260"
           height="270"
           src="https://www.dailymotion.com/embed/video/x7smisp?autoplay=1"
           allowfullscreen=""

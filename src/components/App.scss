@@ -34,11 +34,18 @@ body {
   border: none;
   padding-bottom: 8px;
   transition: color 0.3s ease, transform 0.3s ease;
+  &:hover {
+    color: #bd1e2c;
+  }
+}
+
+.logo {
+  background-color: black !important;
 }
 
 /* Лінія (із початкової точки) */
 .dropbtn::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 1%;
@@ -61,6 +68,7 @@ body {
 
 /* Основні стилі */
 .dropdown {
+  padding: 8px 16px;
   position: relative;
   display: inline-block;
 }
@@ -88,7 +96,7 @@ body {
 }
 
 .dropdown-content a::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 6px;
   opacity: 0;

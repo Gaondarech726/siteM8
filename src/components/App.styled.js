@@ -1,7 +1,14 @@
-import { NavLink } from "react-router-dom";
-import styled from "styled-components";
+import { NavLink } from 'react-router-dom';
+import styled from 'styled-components';
 
 export const Container = styled.div`
+  body {
+    background: black;
+  }
+  margin: 0 auto;
+  padding: 0 16px;
+`;
+export const NewContainer = styled.div`
   body {
     background: black;
   }
@@ -65,3 +72,4 @@ export const LinkHome = styled(NavLink)`
   color: white;
   font-weight: 500;
 `;
+
