@@ -1,4 +1,4 @@
-/*! For license information please see main.3c6afe05.js.LICENSE.txt */
+/*! For license information please see main.fd8454fa.js.LICENSE.txt */
 (()=>{var e={2634:(e,t,n)=>{"use strict";n.d(t,{W2:()=>l,cQ:()=>o,h4:()=>i,rU:()=>u});var r=n(8035),a=n(5867);const l=a.ZP.div`
   body {
     background: black;
@@ -98,14 +98,14 @@
   transition: transform 0.3s ease-in-out;
 
   @media (max-width: 768px) {
-    left: 0;
+    right: 0;
     flex-direction: column;
     position: fixed;
     top: 100px;
     width: 250px;
     background: black;
     padding: 16px;
-    transform: ${e=>{let{isOpen:t}=e;return t?"translateX(150%)":"translateX(300%)"}};
+    transform: ${e=>{let{isOpen:t}=e;return t?"translateX(0%)":"translateX(250%)"}};
   }
 `,y=()=>{const[t,n]=(0,e.useState)(!1);return(0,o.jsxs)(c.W2,{children:[(0,o.jsxs)(c.cQ,{children:[(0,o.jsxs)(m,{children:[(0,o.jsx)(c.rU,{to:"/",className:"logo",children:(0,o.jsx)("img",{src:l,alt:"logo",width:100})}),(0,o.jsx)(g,{onClick:()=>n(!t),children:t?"\u2716":"\u2630"}),(0,o.jsxs)(v,{isOpen:t,children:[(0,o.jsx)(c.rU,{to:"/about",children:"\u041f\u0440\u043e \u043d\u0430\u0441"}),(0,o.jsx)(c.rU,{to:"/products",children:"\u0410\u043b\u044c\u0431\u043e\u043c\u0438"}),(0,o.jsxs)("div",{className:"dropdown",to:"/state",children:[(0,o.jsx)("button",{className:"dropbtn",children:"\u0421\u0442\u0430\u0442\u0442\u0456"}),(0,o.jsxs)("div",{className:"dropdown-content",children:[(0,o.jsx)(c.rU,{to:"/state/runes",children:"\u041f\u0440\u043e \u0440\u0443\u043d\u0438"}),(0,o.jsx)(c.rU,{to:"/state/manifest",children:"\u041c\u0430\u043d\u0456\u0444\u0435\u0441\u0442"}),(0,o.jsx)(c.rU,{to:"/state/concert",children:"\u041a\u043e\u043d\u0446\u0435\u0440\u0442 M8L8TH"}),(0,o.jsx)(c.rU,{to:"/state/sxe",children:"\u0411\u0443\u0434\u044c \u0442\u0432\u0435\u0440\u0435\u0437\u0438\u043c"})]})]})]})]}),(0,o.jsx)(e.Suspense,{fallback:(0,o.jsx)(i,{}),children:(0,o.jsx)(r.j3,{})}),(0,o.jsx)(h,{})]}),(0,o.jsx)(s,{})]})},b=(0,e.lazy)((async()=>{var e;return await(e=2e3,new Promise((t=>setTimeout(t,e)))),Promise.all([n.e(987),n.e(736)]).then(n.bind(n,231))})),S=(0,e.lazy)((()=>Promise.all([n.e(119),n.e(213)]).then(n.bind(n,7601)))),w=(0,e.lazy)((()=>Promise.all([n.e(791),n.e(724)]).then(n.bind(n,4724)))),k=(0,e.lazy)((()=>Promise.all([n.e(791),n.e(280)]).then(n.bind(n,4280)))),E=(0,e.lazy)((()=>n.e(589).then(n.bind(n,2589)))),x=(0,e.lazy)((()=>Promise.all([n.e(791),n.e(556)]).then(n.bind(n,4556)))),C=(0,e.lazy)((()=>Promise.all([n.e(791),n.e(480)]).then(n.bind(n,7480)))),_=(0,e.lazy)((()=>Promise.all([n.e(791),n.e(863)]).then(n.bind(n,5863)))),P=(0,e.lazy)((()=>Promise.all([n.e(791),n.e(432)]).then(n.bind(n,4432)))),T=()=>(0,o.jsx)(r.Z5,{children:(0,o.jsxs)(r.AW,{path:"/",element:(0,o.jsx)(y,{}),children:[(0,o.jsx)(r.AW,{index:!0,element:(0,o.jsx)(b,{})}),(0,o.jsx)(r.AW,{path:"/about",element:(0,o.jsx)(S,{})}),(0,o.jsx)(r.AW,{path:"/products",element:(0,o.jsx)(k,{})}),(0,o.jsx)(r.AW,{path:"/state",element:(0,o.jsx)(E,{})}),(0,o.jsx)(r.AW,{path:"/state/manifest",element:(0,o.jsx)(x,{})}),(0,o.jsx)(r.AW,{path:"/state/runes",element:(0,o.jsx)(C,{})}),(0,o.jsx)(r.AW,{path:"/state/concert",element:(0,o.jsx)(_,{})}),(0,o.jsx)(r.AW,{path:"/state/sxe",element:(0,o.jsx)(P,{})}),(0,o.jsx)(r.AW,{path:"/products/:id",element:(0,o.jsx)(w,{})})]})}),R=document.getElementById("root");(0,t.createRoot)(R).render((0,o.jsx)(e.StrictMode,{children:(0,o.jsx)(r.VK,{basename:"/siteM8",children:(0,o.jsx)(T,{})})}))})()})();
-//# sourceMappingURL=main.3c6afe05.js.map
+//# sourceMappingURL=main.fd8454fa.js.map
