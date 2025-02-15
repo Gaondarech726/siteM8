@@ -1,7 +1,7 @@
-import { Header } from 'components/App.styled';
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import scrollUpImage from '../../img/favicon.png';
+
 import './BtnScrollUp.scss';
 
 export const P = styled.p`
@@ -21,7 +21,7 @@ export const Img = styled.img`
   -ms-user-select: none;
   user-select: none;
 `;
-
+const header = document.querySelector('header');
 const BtnScrollUp = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -39,7 +39,7 @@ const BtnScrollUp = () => {
   }, []);
 
   const handleScrollUp = () => {
-    Header.scrollIntoView({ behavior: 'smooth' });
+    header.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
