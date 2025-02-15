@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 928px;
+  width: 380px;
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -31,7 +31,7 @@ export const CardWrapper = styled.div`
   h3 {
     color: inherit;
     height: 32px;
-    width: 928px;
+    width: 380px;
     display: flex;
     align-items: center;
   }
