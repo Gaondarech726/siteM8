@@ -9,7 +9,6 @@ export const Container = styled.div`
 `;
 
 export const CardWrapper = styled.div`
-  border: 1px solid white;
   width: 380px;
   height: 64px;
   border-radius: 4px;
