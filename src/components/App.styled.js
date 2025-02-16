@@ -54,6 +54,8 @@ export const Link = styled(NavLink)`
     color: #bd1e2c;
   }
 `;
+
+export const SpecialLink = styled(NavLink)``;
 export const LinkDrop = styled(NavLink)`
   padding: 8px 16px;
   border-radius: 4px;
@@ -72,4 +74,3 @@ export const LinkHome = styled(NavLink)`
   color: white;
   font-weight: 500;
 `;
-

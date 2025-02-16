@@ -1,6 +1,8 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-import styled from "styled-components";
+import styled from 'styled-components';
+
+import './state.scss';
 
 export const Container = styled.div`
   width: 928px;
@@ -43,17 +45,17 @@ export const CardWrapper = styled.div`
 
 const State = () => {
   return (
-    <Container>
-      <CardWrapper>
+    <Container className="conta">
+      <CardWrapper className="cardWrapp">
         <Link to="manifest">Маніфест</Link>
       </CardWrapper>
-      <CardWrapper>
+      <CardWrapper className="cardWrapp">
         <Link to="runes">Про руни</Link>
       </CardWrapper>
-      <CardWrapper>
+      <CardWrapper className="cardWrapp">
         <Link to="concert">Концерт M8L8TH</Link>
       </CardWrapper>
-      <CardWrapper>
+      <CardWrapper className="cardWrapp">
         <Link to="sxe">Будь тверезим</Link>
       </CardWrapper>
     </Container>
