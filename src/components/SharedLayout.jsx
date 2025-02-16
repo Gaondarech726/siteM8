@@ -5,7 +5,7 @@ import '../components/App.scss';
 import LogoM8 from '../img/logo.png';
 import { Load } from '../pages/feauters/loading/Load.jsx';
 import { Footer } from './../pages/Footer/Footer.jsx';
-import { Container, Link, NewContainer } from './App.styled';
+import { Container, Link, NewContainer, SpecialLink } from './App.styled';
 import BtnScrollUp from './BtnScrollUp/BtnScrollUp';
 
 const HeaderContainer = styled.header`
@@ -64,7 +64,7 @@ export const SharedLayout = () => {
           <NavLinks isOpen={isOpen}>
             <Link to="/about">Про нас</Link>
             <Link to="/products">Альбоми</Link>
-            <div className="dropdown" to="/state">
+            <SpecialLink className="dropdown" to="/state">
               <button className="dropbtn">Статті</button>
               <div className="dropdown-content">
                 <Link to="/state/runes">Про руни</Link>
@@ -72,7 +72,7 @@ export const SharedLayout = () => {
                 <Link to="/state/concert">Концерт M8L8TH</Link>
                 <Link to="/state/sxe">Будь тверезим</Link>
               </div>
-            </div>
+            </SpecialLink>
           </NavLinks>
         </HeaderContainer>
         <Suspense fallback={<Load />}>
