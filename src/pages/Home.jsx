@@ -1,6 +1,10 @@
-import { Link } from "react-router-dom";
-import styled from "styled-components";
-import { TourMap } from "../pages/feauters/Map";
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+import { TourMap } from '../pages/feauters/Map';
+
+export const Main = styled.main`
+  margin-top: 50px;
+`;
 
 export const P = styled.p`
   color: white;
@@ -39,7 +43,7 @@ export const Li = styled.li`
 
 const Home = () => {
   return (
-    <main>
+    <Main>
       <H1>Привіт! Ласкаво просимо на сторінку, присвячену гурту M8L8TH!</H1>
 
       <P>
@@ -85,7 +89,7 @@ const Home = () => {
         <Li>
           <Link to="products/a-6">
             WHISPER OF RUNES - CRYSTAL KNIGHT (2021):
-          </Link>{" "}
+          </Link>{' '}
           Його історія починається у 2014 році, коли після виходу альбому
           "Templum Victoriae" творчий пошук гурту привів до нових горизонтів та
           орієнтирів. Після кількох років запису, альбом нарешті побачив світ,
@@ -122,7 +126,7 @@ const Home = () => {
           складається з трьох треків: Сингл.
         </Li>
         <Li>
-          <Link to="products/a-8">Удар милосердя / Coup de grâce (2018):</Link>{" "}
+          <Link to="products/a-8">Удар милосердя / Coup de grâce (2018):</Link>{' '}
           Міні-альбом, спільна робота з лідером французького гурту Peste Noire.
         </Li>
         <Li>
@@ -143,7 +147,7 @@ const Home = () => {
       </P>
 
       <TourMap></TourMap>
-    </main>
+    </Main>
   );
 };
 export default Home;
