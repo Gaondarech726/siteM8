@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import './state.scss';
 
 export const Container = styled.div`
+  margin-top: 50px;
   width: 928px;
   flex-direction: column;
   display: flex;
