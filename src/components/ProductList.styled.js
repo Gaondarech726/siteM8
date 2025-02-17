@@ -51,6 +51,11 @@ export const ProductH1 = styled.h3`
   color: white;
 `;
 
+export const P = styled.p`
+  margin: 50px 0 50px 0;
+  color: white;
+`;
+
 export const ProductDescription = styled.h3`
   margin-top: 30px;
   font-weight: 200;
