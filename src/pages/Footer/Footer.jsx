@@ -13,7 +13,7 @@ export const Footer = () => {
           <p>Наші соцмережі</p>
           <ul>
             <li>
-              <a href="https://t.me/thulesignal" target="_blank" rel="noopener">
+              <a href="https://t.me/thulesignal" target="_blank" rel="noreferrer">
                 <FaTelegram fill="#bd1e2c" stroke="white" className="icon" />
                 <span className="tooltip">Thule Signal TG</span>
               </a>
@@ -22,7 +22,7 @@ export const Footer = () => {
               <a
                 href="https://t.me/joinchat/O99g8cKv7xzY08Vv"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
               >
                 <FaTelegram fill="#bd1e2c" stroke="white" className="icon" />
                 <span className="tooltip">WotanJugend TG</span>
@@ -37,14 +37,14 @@ export const Footer = () => {
               <a
                 href="https://wotanjugend.info/"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
               >
                 <img src={FaviconWJ} alt="LogoWJ" className="iconS" />
                 <span className="tooltip">WotanJugend.info</span>
               </a>
             </li>
             <li>
-              <a href="https://militant.zone" target="_blank" rel="noopener">
+              <a href="https://militant.zone" target="_blank" rel="noreferrer">
                 <img src={LogoMZ} alt="LogoMZ" className="iconS" />
                 <span className="tooltip">Militant.zone</span>
               </a>
