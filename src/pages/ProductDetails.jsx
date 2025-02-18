@@ -6,6 +6,7 @@ import {
   P,
   ProductDescription,
   ProductH1,
+  Iframe, Div
 } from '../components/ProductList.styled';
 import { getProductById } from '../fakeAPI';
 
@@ -57,7 +58,7 @@ const ProductDetails = () => {
   return (
     <main>
       <BackLink to={backLinkHref}>Повернутись назад</BackLink>
-      <div>
+      <Div>
         <ProductH1>{product.name}</ProductH1>
         <ProductDescription>{product.description}</ProductDescription>
         <P>
@@ -67,7 +68,7 @@ const ProductDetails = () => {
         <P>
           <strong>Опис відео:</strong> {videoDescription || 'Завантаження...'}
         </P>
-        <iframe
+        <Iframe
           width="260"
           height="315"
           src={product.link}
@@ -76,8 +77,8 @@ const ProductDetails = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
-        ></iframe>
-      </div>
+        ></Iframe>
+      </Div>
     </main>
   );
 };

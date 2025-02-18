@@ -5,31 +5,131 @@
   align-items: center;
   position: relative;
   color: white !important;
-  overflow: hidden; // Убираем лишнее
+  overflow: hidden;
 
-  img {
+  .backgroundFooter {
     width: auto;
     height: 100%;
     max-width: 100%;
-    object-fit: contain; // Чтобы картинка не обрезалась
+    object-fit: contain;
     position: absolute;
-    bottom: 0; // Прижимаем вниз
+    bottom: 0;
     left: 50%;
-    transform: translateX(-50%); // Центрируем изображение
+    transform: translateX(-50%);
   }
 }
 
-// Медиа-запрос для мобильных устройств
 @media (max-width: 768px) {
   .footer {
-    height: 260px; // Уменьшаем высоту для мобильных
+    height: 500px;
 
-    img {
+    .backgroundFooter {
+      bottom: 260px;
       margin: 0 auto;
       height: auto;
       max-width: 400%;
-
       object-fit: contain;
     }
   }
+}
+@media (max-width: 425px) {
+  .wrap {
+    top: 100px;
+    flex-direction: column;
+    p {
+      text-align: center;
+    }
+    .social,
+    .resurs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+    }
+  }
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: -80px;
+  width: 90vw;
+  height: auto;
+
+  p {
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  li {
+    list-style: none;
+    padding: 10px;
+    position: relative; // Чтобы tooltip позиционировался внутри li
+  }
+}
+
+.resurs {
+  float: right;
+  display: inline-block;
+  text-align: right;
+
+  ul {
+    position: relative;
+    top: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
+.social {
+  display: inline-block;
+  float: left;
+
+  ul {
+    position: relative;
+    top: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
+.icon,
+.iconS {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.iconS {
+  border-radius: 50%;
+  border: 2px solid #bd1e2c;
+  background-color: #bd1e2c;
+}
+
+// Стили для всплывающего текста
+.tooltip {
+  position: absolute;
+  bottom: 50px; // Поднимаем над иконкой
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-size: 14px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+}
+
+li:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
 }
