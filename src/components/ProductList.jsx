@@ -1,6 +1,11 @@
 import { Link } from 'react-router-dom';
 import './productlist.scss';
-import { CardWrapper, Container, ProductName, ProductAuthor } from './ProductList.styled';
+import {
+  CardWrapper,
+  Container,
+  ProductAuthor,
+  ProductName,
+} from './ProductList.styled';
 
 export const ProductList = ({ products }) => {
   return (

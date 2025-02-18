@@ -9,8 +9,10 @@ export const Container = styled.div`
 `;
 
 export const CardWrapper = styled.div`
+  display: flex;
+
   border: 1px solid white;
-  width: 380px;
+  width: 50vw;
   height: 70px;
   border-radius: 4px;
   transition: background-color 0.5s ease, color 0.5s ease;
@@ -60,4 +62,16 @@ export const ProductDescription = styled.h3`
   margin-top: 30px;
   font-weight: 200;
   color: white;
+`;
+
+export const Iframe = styled.iframe`
+  width: 80vw;
+  height: 200px;
+`;
+
+export const Div = styled.div`
+  width: 320px;
+  @media (max-width: 320px) {
+    width: 256px;
+  }
 `;
