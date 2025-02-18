@@ -9,6 +9,9 @@ import { Container, Link, NewContainer, SpecialLink } from './App.styled';
 import BtnScrollUp from './BtnScrollUp/BtnScrollUp';
 
 const HeaderContainer = styled.header`
+  @media (max-width: 425px) {
+    width: 250px;
+  }
   display: flex;
   align-items: center;
   justify-content: space-between;

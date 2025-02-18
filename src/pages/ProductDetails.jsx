@@ -3,10 +3,12 @@ import { useEffect, useState } from 'react';
 import { useLocation, useParams } from 'react-router-dom';
 import { BackLink } from '../components/BackLink';
 import {
+  Div,
+  Iframe,
+  Main,
   P,
   ProductDescription,
   ProductH1,
-  Iframe, Div
 } from '../components/ProductList.styled';
 import { getProductById } from '../fakeAPI';
 
@@ -56,7 +58,7 @@ const ProductDetails = () => {
   }
 
   return (
-    <main>
+    <Main>
       <BackLink to={backLinkHref}>Повернутись назад</BackLink>
       <Div>
         <ProductH1>{product.name}</ProductH1>
@@ -68,18 +70,18 @@ const ProductDetails = () => {
         <P>
           <strong>Опис відео:</strong> {videoDescription || 'Завантаження...'}
         </P>
-        <Iframe
-          width="260"
-          height="315"
-          src={product.link}
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></Iframe>
       </Div>
-    </main>
+      <Iframe
+        width="260"
+        height="315"
+        src={product.link}
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen
+      ></Iframe>
+    </Main>
   );
 };
 

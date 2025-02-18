@@ -65,8 +65,16 @@ export const ProductDescription = styled.h3`
 `;
 
 export const Iframe = styled.iframe`
-  width: 80vw;
-  height: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 928px;
+  @media (max-width: 425px) {
+    max-width: 320px;
+    width: calc(100vw - 20vw);
+  }
 `;
 
 export const Div = styled.div`
@@ -74,4 +82,8 @@ export const Div = styled.div`
   @media (max-width: 320px) {
     width: 256px;
   }
+`;
+
+export const Main = styled.main`
+  width: 100vw;
 `;
