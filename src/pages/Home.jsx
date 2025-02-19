@@ -34,7 +34,7 @@ export const Li = styled.li`
   > a {
     text-decoration: none;
     transition: color 0.5s ease;
-    color: #bd1e2c;
+    color: rgb(202, 38, 52);
     &:hover {
       color: #ff0000;
     }
