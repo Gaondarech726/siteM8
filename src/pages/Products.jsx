@@ -6,7 +6,7 @@ import { SearchBox } from './searchbox/SearchBox';
 
 const Products = () => {
   const location = useLocation();
-  const backLinkHref = location.state?.from ?? '/state';
+  const backLinkHref = location.home?.from ?? '/';
 
   const products = getProducts();
   const [searchParams, setSearchParams] = useSearchParams();
