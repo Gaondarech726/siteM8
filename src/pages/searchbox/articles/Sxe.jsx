@@ -4,6 +4,10 @@ import { BackLink } from './../../../components/BackLink';
 
 export const P = styled.p`
   color: white;
+  font-size: 20px;
+  @media (max-width: 425px) {
+    font-size: 16px;
+  }
 `;
 
 export const H1 = styled.h1`
