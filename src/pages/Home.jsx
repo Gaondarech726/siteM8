@@ -9,6 +9,10 @@ export const Main = styled.main`
 export const P = styled.p`
   color: white;
   padding-bottom: 50px;
+  font-size: 20px;
+  @media (max-width: 425px) {
+    font-size: 16px;
+  }
 `;
 
 export const H1 = styled.h1`
@@ -27,6 +31,10 @@ export const Ul = styled.ul`
 `;
 
 export const Li = styled.li`
+  font-size: 20px;
+  @media (max-width: 425px) {
+    font-size: 16px;
+  }
   padding-bottom: 25px;
   color: white;
 

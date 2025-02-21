@@ -56,6 +56,10 @@ export const ProductH1 = styled.h3`
 export const P = styled.p`
   margin: 50px 0 50px 0;
   color: white;
+  font-size: 20px;
+  @media (max-width: 425px) {
+    font-size: 16px;
+  }
 `;
 
 export const ProductDescription = styled.h3`
