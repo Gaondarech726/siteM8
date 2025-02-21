@@ -9,6 +9,7 @@
     "@mui/material": "^6.4.4",
     "@mui/styled-engine-sc": "^6.4.3",
     "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
     "lazy": "^1.0.11",
     "leaflet": "^1.9.4",
     "modern-normalize": "^3.0.1",

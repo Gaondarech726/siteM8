@@ -12,7 +12,7 @@ import {
 } from '../components/ProductList.styled';
 import { getProductById } from '../fakeAPI';
 
-const YOUTUBE_API_KEY = 'AIzaSyD0gzV_4jwgWmqV8sFro1VzfgoEmTnUj50';
+const YOUTUBE_API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
 
 const ProductDetails = () => {
   const location = useLocation();
