@@ -2,7 +2,7 @@ import { Suspense, useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import styled from 'styled-components';
 import '../components/App.scss';
-import LogoM8 from '../img/logo.png';
+import LogoM8 from '../img/logo.svg';
 import { Load } from '../pages/feauters/loading/Load.jsx';
 import { Footer } from './../pages/Footer/Footer.jsx';
 import { Container, Link, NewContainer, SpecialLink } from './App.styled';
@@ -11,9 +11,14 @@ import BtnScrollUp from './BtnScrollUp/BtnScrollUp';
 const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 8px 16px;
+  justify-content: space-around;
+  margin: 8px -170px;
   border-bottom: 1px solid white;
+`;
+
+const Img = styled.img`
+  width: 200px;
+  height: 100%;
 `;
 
 const BurgerButton = styled.button`
@@ -30,12 +35,14 @@ const BurgerButton = styled.button`
 `;
 
 const NavLinks = styled.nav`
+  font-size: 20px;
   z-index: 1000;
   display: flex;
   gap: 12px;
   transition: transform 0.3s ease-in-out;
 
   @media (max-width: 768px) {
+    font-size: 18px;
     right: 0;
     flex-direction: column;
     position: fixed;
@@ -56,7 +63,7 @@ export const SharedLayout = () => {
       <NewContainer>
         <HeaderContainer>
           <Link to="/" className="logo">
-            <img src={LogoM8} alt="logo" width={100} />
+            <Img src={LogoM8} alt="logo" />
           </Link>
           <BurgerButton onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? '✖' : '☰'}
