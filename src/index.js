@@ -6,12 +6,14 @@ import { App } from './components/App';
 import './index.css';
 import './pages/feauters/loading/load.scss';
 
+
+
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/siteM8">
       <App />
     </BrowserRouter>
   </StrictMode>
