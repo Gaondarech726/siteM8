@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/siteM8/static/css/main.03629a5c.css",
-    "main.js": "/siteM8/static/js/main.04753d41.js",
+    "main.css": "/siteM8/static/css/main.1ae1d7af.css",
+    "main.js": "/siteM8/static/js/main.ce04f0c4.js",
     "static/css/736.b71053cb.chunk.css": "/siteM8/static/css/736.b71053cb.chunk.css",
-    "static/js/736.5536412b.chunk.js": "/siteM8/static/js/736.5536412b.chunk.js",
+    "static/js/736.81a47085.chunk.js": "/siteM8/static/js/736.81a47085.chunk.js",
     "static/css/213.46051149.chunk.css": "/siteM8/static/css/213.46051149.chunk.css",
     "static/js/213.a26c765e.chunk.js": "/siteM8/static/js/213.a26c765e.chunk.js",
     "static/js/724.5dfc104f.chunk.js": "/siteM8/static/js/724.5dfc104f.chunk.js",
@@ -29,7 +29,7 @@
     "static/media/photoOne.jpg": "/siteM8/static/media/photoOne.8a5d30f2e269d6a901ac.jpg",
     "static/media/VSESLAV THE SORCERER.jpg": "/siteM8/static/media/VSESLAV THE SORCERER.d1a1af50e4333adad15b.jpg",
     "static/media/Sxe.jpg": "/siteM8/static/media/Sxe.252310e56594a4fb923d.jpg",
-    "static/media/logo.png": "/siteM8/static/media/logo.3125e8ca651f0767f7f4.png",
+    "static/media/logo.svg": "/siteM8/static/media/logo.16002cf2508899806415d1437d75d5ca.svg",
     "static/media/HERETIC FEST.jpg": "/siteM8/static/media/HERETIC FEST.796ca17d4179ec97f831.jpg",
     "static/media/photoTwo.jpg": "/siteM8/static/media/photoTwo.df54e0b4a409d2b58d47.jpg",
     "static/media/ASGARDSREI VII FEST.png": "/siteM8/static/media/ASGARDSREI VII FEST.aa5bf26252ff66c53bbc.png",
@@ -42,10 +42,10 @@
     "static/media/Runes.jpg": "/siteM8/static/media/Runes.d54e272a0f779e99f92d.jpg",
     "static/media/bg_soc.png": "/siteM8/static/media/bg_soc.2ec1be61f25105aed2d1.png",
     "index.html": "/siteM8/index.html",
-    "main.03629a5c.css.map": "/siteM8/static/css/main.03629a5c.css.map",
-    "main.04753d41.js.map": "/siteM8/static/js/main.04753d41.js.map",
+    "main.1ae1d7af.css.map": "/siteM8/static/css/main.1ae1d7af.css.map",
+    "main.ce04f0c4.js.map": "/siteM8/static/js/main.ce04f0c4.js.map",
     "736.b71053cb.chunk.css.map": "/siteM8/static/css/736.b71053cb.chunk.css.map",
-    "736.5536412b.chunk.js.map": "/siteM8/static/js/736.5536412b.chunk.js.map",
+    "736.81a47085.chunk.js.map": "/siteM8/static/js/736.81a47085.chunk.js.map",
     "213.46051149.chunk.css.map": "/siteM8/static/css/213.46051149.chunk.css.map",
     "213.a26c765e.chunk.js.map": "/siteM8/static/js/213.a26c765e.chunk.js.map",
     "724.5dfc104f.chunk.js.map": "/siteM8/static/js/724.5dfc104f.chunk.js.map",
@@ -63,7 +63,7 @@
     "987.4c99fdec.chunk.js.map": "/siteM8/static/js/987.4c99fdec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03629a5c.css",
-    "static/js/main.04753d41.js"
+    "static/css/main.1ae1d7af.css",
+    "static/js/main.ce04f0c4.js"
   ]
 }
