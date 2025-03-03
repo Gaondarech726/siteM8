@@ -42,9 +42,9 @@ export const Li = styled.li`
   > a {
     text-decoration: none;
     transition: color 0.5s ease;
-    color: rgb(202, 38, 52);
+    color: rgb(255, 0, 0);
     &:hover {
-      color: #ff0000;
+      color: rgb(255, 103, 103);
     }
   }
 `;
