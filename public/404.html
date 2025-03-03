@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <meta http-equiv="refresh" content="0; url=/siteM8/" />
     <script type="text/javascript">
-      // Redirect to React app
-      var pathSegmentsToKeep = 1; // /siteM8 -> 1 сегмент
-      var pathArray = window.location.pathname.split('/');
-      var newPath = pathArray.slice(0, pathSegmentsToKeep + 1).join('/') + '/';
-      var hash = '#' + pathArray.slice(pathSegmentsToKeep + 1).join('/');
-      var search = window.location.search;
-      window.location.replace(newPath + hash + search);
+      var pathname = window.location.pathname.replace('/siteM8', '');
+      window.location.replace('/siteM8/#' + pathname);
     </script>
   </head>
   <body></body>
