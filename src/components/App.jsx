@@ -6,7 +6,7 @@ import { SharedLayout } from './SharedLayout';
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
 const Home = lazy(async () => {
-  await delay(2022200);
+  await delay(2000);
   return import('../pages/Home');
 });
 
