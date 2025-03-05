@@ -32,7 +32,9 @@ const BurgerButton = styled.button`
   font-size: 24px;
   cursor: pointer;
   display: none;
-
+  position: relative;
+  right: 80px;
+  
   @media (max-width: 768px) {
     display: block;
   }
