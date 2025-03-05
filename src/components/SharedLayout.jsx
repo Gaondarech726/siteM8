@@ -19,6 +19,10 @@ const HeaderContainer = styled.header`
 const Img = styled.img`
   width: 200px;
   height: 100%;
+  @media (max-width: 440px) {
+    width: 150px;
+    margin-left: 50px;
+  }
 `;
 
 const BurgerButton = styled.button`
