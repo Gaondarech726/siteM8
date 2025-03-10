@@ -18,7 +18,7 @@
   }
 
   > a {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     text-decoration: none;
     display: block;
@@ -34,4 +34,4 @@
     align-items: center;
   }
 `,n=()=>(0,c.jsxs)(o,{className:"conta",children:[(0,c.jsx)(t,{className:"cardWrapp",children:(0,c.jsx)(s.rU,{to:"runes",children:"\u041f\u0440\u043e \u0440\u0443\u043d\u0438"})}),(0,c.jsx)(t,{className:"cardWrapp",children:(0,c.jsx)(s.rU,{to:"concert",children:"\u041a\u043e\u043d\u0446\u0435\u0440\u0442 M8L8TH"})}),(0,c.jsx)(t,{className:"cardWrapp",children:(0,c.jsx)(s.rU,{to:"sxe",children:"\u0411\u0443\u0434\u044c \u0442\u0432\u0435\u0440\u0435\u0437\u0438\u043c"})})]})}}]);
-//# sourceMappingURL=275.27c1a160.chunk.js.map
+//# sourceMappingURL=275.3a541bd7.chunk.js.map
