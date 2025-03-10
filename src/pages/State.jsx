@@ -26,7 +26,7 @@ export const CardWrapper = styled.div`
   }
 
   > a {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     text-decoration: none;
     display: block;
