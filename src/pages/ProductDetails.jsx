@@ -9,6 +9,7 @@ import {
   P,
   ProductDescription,
   ProductH1,
+  Pstrong,
 } from '../components/ProductList.styled';
 import { getProductById } from '../fakeAPI';
 
@@ -67,9 +68,9 @@ const ProductDetails = () => {
           <strong>Перегляди:</strong>{' '}
           {views !== null ? views.toLocaleString() : 'Завантаження...'}
         </P>
-        <P>
+        <Pstrong>
           <strong>Опис відео:</strong> {videoDescription || 'Завантаження...'}
-        </P>
+        </Pstrong>
       </Div>
       <Iframe
         width="260"

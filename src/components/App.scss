@@ -43,7 +43,6 @@ body {
   background-color: black !important;
 }
 
-/* Лінія (із початкової точки) */
 .dropbtn::after {
   content: '';
   position: absolute;
@@ -61,12 +60,6 @@ body {
   transform: scaleX(1);
 }
 
-// .dropdown:hover .dropbtn {
-//   transform: translateY(-3px);
-//   color: #bd1e2c;
-// }
-
-/* Основні стилі */
 .dropdown {
   padding: 8px 16px;
   position: relative;

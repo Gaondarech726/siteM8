@@ -10,7 +10,7 @@ export const Footer = () => {
       <img src={FooterBg} alt="Footer" className="backgroundFooter" />
       <div className="wrap">
         <div className="social list_f">
-          <p>Наші соцмережі</p>
+          <p>Соцмережі</p>
           <ul>
             <li>
               <a
@@ -37,7 +37,7 @@ export const Footer = () => {
           </ul>
         </div>
         <div className="resurs list_f">
-          <p>Наші сайти</p>
+          <p>Сайти</p>
           <ul>
             <li>
               <a
@@ -50,7 +50,12 @@ export const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="https://militant.zone" target="_blank" rel="noreferrer" className='mz'>
+              <a
+                href="https://militant.zone"
+                target="_blank"
+                rel="noreferrer"
+                className="mz"
+              >
                 <img src={LogoMZ} alt="LogoMZ" className="iconS" />
                 <span className="tooltip">Militant.zone</span>
               </a>

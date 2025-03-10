@@ -8,6 +8,16 @@ export const Container = styled.div`
   gap: 25px;
 `;
 
+export const Pstrong = styled.p`
+  width: 80vw;
+  margin: 50px 0 50px 0;
+  color: white;
+  font-size: 20px;
+  @media (max-width: 425px) {
+    font-size: 16px;
+  }
+`;
+
 export const CardWrapper = styled.div`
   display: flex;
 

@@ -46,9 +46,9 @@ export const CardWrapper = styled.div`
 const State = () => {
   return (
     <Container className="conta">
-      <CardWrapper className="cardWrapp">
+      {/* <CardWrapper className="cardWrapp">
         <Link to="manifest">Маніфест</Link>
-      </CardWrapper>
+      </CardWrapper> */}
       <CardWrapper className="cardWrapp">
         <Link to="runes">Про руни</Link>
       </CardWrapper>
