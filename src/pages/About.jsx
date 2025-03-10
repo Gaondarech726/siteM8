@@ -5,6 +5,7 @@ import Slider from '../components/Slider/Slider';
 export const P = styled.p`
   margin-top: 40px;
   color: white;
+  font-size: 20px;
 `;
 
 export const H1 = styled.h1`
