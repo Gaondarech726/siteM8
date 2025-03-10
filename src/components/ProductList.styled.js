@@ -73,6 +73,7 @@ export const P = styled.p`
 `;
 
 export const ProductDescription = styled.h3`
+  font-size: 20px;
   margin-top: 30px;
   font-weight: 200;
   color: white;
