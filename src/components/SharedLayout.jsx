@@ -27,6 +27,20 @@ const Plink = styled.p`
     font-size: 18px;
   }
 `;
+const PlinkS = styled.p`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  height: 150px;
+  @media (max-width: 425px) {
+    font-size: 18px;
+  }
+  height: 240px;
+  background: rgb(189, 30, 44);
+`;
 const Alink = styled.a`
   text-decoration: none;
   color: #bd1e2c;
@@ -110,13 +124,13 @@ export const SharedLayout = () => {
         </Suspense>
         <BtnScrollUp />
       </NewContainer>
-      <Plink>
+      <PlinkS>
         Усі фотографії, статті та інформація, представлені на цьому ресурсі,
         взяті з відкритих джерел або надані користувачами. <br />
         Якщо ви є правовласником будь-якого матеріалу та вважаєте, що його
         розміщення порушує ваші права, зв’яжіться з нами, і ми оперативно
         розглянемо ваш запит.
-      </Plink>
+      </PlinkS>
       <Footer />
       <Plink>
         Розробив
