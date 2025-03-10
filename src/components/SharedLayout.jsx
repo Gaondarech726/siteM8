@@ -40,6 +40,7 @@ const PlinkS = styled.p`
   }
   height: 240px;
   background: rgb(189, 30, 44);
+  margin: 80px 0 80px 0;
 `;
 const Alink = styled.a`
   text-decoration: none;
