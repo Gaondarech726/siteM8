@@ -16,8 +16,16 @@ export const P = styled.p`
 `;
 
 export const H1 = styled.h1`
+  text-align: center;
+  font-size: 70px;
   color: white;
   padding-bottom: 50px;
+  @media (max-width: 768px) {
+    font-size: 3em;
+  }
+  @media (max-width: 425px) {
+    font-size: 2em;
+  }
 `;
 
 export const H2 = styled.h2`
@@ -84,8 +92,8 @@ const Home = () => {
           інші, передають атмосферу темряви, таємничості та могутності.
         </Li>
         <Li>
-          <strong>AzovStahl (2022):</strong> Україномовний кавер на пісню "Шторм
-          над Азовом", присвячений подвигу бійців полку "Азов".
+          <Link to="products/a-10">AzovStahl (2022):</Link> Україномовний кавер
+          на пісню "Шторм над Азовом", присвячений подвигу бійців полку "Азов".
         </Li>
         <Li>
           <strong>By the White Wolf's Hammer (2021):</strong> Сингл, що
@@ -141,7 +149,7 @@ const Home = () => {
         <Li>
           <Link to="products/a-9">PRE-M8L8TH - 2001 DEMO ERA SONG:</Link> не є
           офіційним релізом. Це ранній демозапис або окремий трек, який був
-          створений ще до офіційного формування гурту M8L8TH у 2002 році
+          створений ще до офіційного формування гурту M8L8TH у 2003 році
         </Li>
       </Ul>
 

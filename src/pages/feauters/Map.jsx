@@ -137,8 +137,8 @@ export function TourMap() {
     <>
       <H1>Місця проведення концертів M8L8TH</H1>
       <MapContainer
-        center={[53.4501, 32.5234]}
-        zoom={6}
+        center={[53.4501, 34.5234]}
+        zoom={5}
         className="map-container"
       >
         <TileLayer

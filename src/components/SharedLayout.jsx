@@ -15,6 +15,23 @@ const HeaderContainer = styled.header`
   margin: 8px -170px;
   border-bottom: 1px solid white;
 `;
+const Plink = styled.p`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  height: 100px;
+  @media (max-width: 425px) {
+    font-size: 18px;
+  }
+`;
+const Alink = styled.a`
+  text-decoration: none;
+  color: #bd1e2c;
+  padding-left: 10px;
+`;
 
 const Img = styled.img`
   width: 200px;
@@ -76,12 +93,12 @@ export const SharedLayout = () => {
           </BurgerButton>
           <NavLinks isOpen={isOpen}>
             <Link to="/about">Про нас</Link>
-            <Link to="/products">Альбоми</Link>
+            <Link to="/products">Музика</Link>
             <SpecialLink className="dropdown" to="/state">
               <button className="dropbtn">Статті</button>
               <div className="dropdown-content">
                 <Link to="/state/runes">Про руни</Link>
-                <Link to="/state/manifest">Маніфест</Link>
+                {/* <Link to="/state/manifest">Маніфест</Link> */}
                 <Link to="/state/concert">Концерт M8L8TH</Link>
                 <Link to="/state/sxe">Будь тверезим</Link>
               </div>
@@ -94,6 +111,12 @@ export const SharedLayout = () => {
         <BtnScrollUp />
       </NewContainer>
       <Footer />
+      <Plink>
+        Розробив
+        <Alink href="https://www.linkedin.com/in/anton-honcharenko-88131mtk/">
+          Anton Honcharenko
+        </Alink>
+      </Plink>
     </Container>
   );
 };
