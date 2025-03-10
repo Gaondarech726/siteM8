@@ -19,11 +19,13 @@ export const H1 = styled.h1`
   text-align: center;
   font-size: 70px;
   color: white;
-  padding-bottom: 50px;
+  padding: 100px 0 100px 0;
   @media (max-width: 768px) {
+    padding: 100px 0 100px 0;
     font-size: 3em;
   }
   @media (max-width: 425px) {
+    padding: 75px 0 75px 0;
     font-size: 2em;
   }
 `;
