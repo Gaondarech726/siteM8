@@ -110,19 +110,19 @@ export const SharedLayout = () => {
         </Suspense>
         <BtnScrollUp />
       </NewContainer>
-      <Footer />
-      <Plink>
-        Розробив
-        <Alink href="https://www.linkedin.com/in/anton-honcharenko-88131mtk/">
-          Anton Honcharenko
-        </Alink>
-      </Plink>
       <Plink>
         Усі фотографії, статті та інформація, представлені на цьому ресурсі,
         взяті з відкритих джерел або надані користувачами. <br />
         Якщо ви є правовласником будь-якого матеріалу та вважаєте, що його
         розміщення порушує ваші права, зв’яжіться з нами, і ми оперативно
         розглянемо ваш запит.
+      </Plink>
+      <Footer />
+      <Plink>
+        Розробив
+        <Alink href="https://www.linkedin.com/in/anton-honcharenko-88131mtk/">
+          Anton Honcharenko
+        </Alink>
       </Plink>
     </Container>
   );
