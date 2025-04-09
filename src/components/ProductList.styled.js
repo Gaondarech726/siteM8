@@ -22,7 +22,7 @@ export const CardWrapper = styled.div`
   display: flex;
 
   border: 1px solid white;
-  width: 50vw;
+  width: 95vw;
   height: 70px;
   border-radius: 4px;
   transition: background-color 0.5s ease, color 0.5s ease;
