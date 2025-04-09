@@ -31,7 +31,7 @@
   display: flex;
 
   border: 1px solid white;
-  width: 50vw;
+  width: 95vw;
   height: 70px;
   border-radius: 4px;
   transition: background-color 0.5s ease, color 0.5s ease;
@@ -106,4 +106,4 @@
   font: inherit;
   border: transparent;
 `,h=e=>{let{value:t,onChange:i}=e;return(0,r.jsx)(c,{children:(0,r.jsx)(l,{type:"text",value:t,onChange:e=>i(e.target.value),placeholder:"\u0412\u0432\u0435\u0434\u0456\u0442\u044c \u043d\u0430\u0437\u0432\u0443 \u0430\u043b\u044c\u0431\u043e\u043c\u0443"})})},x=()=>{var e,t,i;const a=null!==(e=null===(t=(0,o.TH)().home)||void 0===t?void 0:t.from)&&void 0!==e?e:"/",p=(0,d.X)(),[c,l]=(0,o.lr)(),x=null!==(i=c.get("name"))&&void 0!==i?i:"",m=p.filter((e=>e.name.toLowerCase().includes(x.toLowerCase())));return(0,r.jsxs)("main",{children:[(0,r.jsx)(n.h,{to:a,children:"\u041f\u043e\u0432\u0435\u0440\u043d\u0443\u0442\u0438\u0441\u044c \u043d\u0430\u0437\u0430\u0434"}),(0,r.jsx)(h,{value:x,onChange:e=>{l(""!==e?{name:e}:{})}}),(0,r.jsx)(s,{products:m})]})}}}]);
-//# sourceMappingURL=415.5a518a93.chunk.js.map
+//# sourceMappingURL=415.300412ac.chunk.js.map
