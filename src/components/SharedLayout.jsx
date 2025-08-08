@@ -89,7 +89,7 @@ const NavLinks = styled.nav`
     background: black;
     padding: 16px;
     transform: ${({ isOpen }) =>
-      isOpen ? 'translateX(-40%)' : 'translateX(250%)'};
+      isOpen ? 'translateX(0%)' : 'translateX(250%)'};
   }
 `;
 
